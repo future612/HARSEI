@@ -1,0 +1,1 @@
+Fig. 2 is a conceptual workflow schematic. It has no numeric raw dataset or GeoTIFF source layer. The underlying formula/table sources are included in Table02 and method sheets in the Origin workbook.

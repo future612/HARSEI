@@ -1,0 +1,19 @@
+﻿【中文正文可用表述】
+
+为进一步量化外生驱动因子对 HARSEI 空间分异的非线性影响，本研究以最新年度 HARSEI 为响应变量，构建逐年随机森林回归模型，并采用 SHAP 方法解释各因子对模型输出的边际贡献。为避免循环解释，RF-SHAP 分析仅纳入 DEM、SLOPE、ASPECT、WRB、PRE、TEMMAX、TEMMIN、TEM、SOIL、AET 和 SWE 等外生环境因子，未纳入 HARSEI 组成项及 HAI/LUCC 相关变量。每个年份随机抽取 100,000 个有效像元用于模型训练与验证，其中 25% 作为独立验证集；随后从验证集中抽取 2,000 个样本计算 SHAP 值。
+
+RF 模型在六个年份均表现出较强解释能力，验证集 R² 保持在较高水平，说明外生环境变量能够较好刻画 HARSEI 的空间异质性。SHAP 结果表明，SOIL、AET、PRE 和 SWE 是多数年份贡献最高的变量，反映出土壤背景、水分供给和雪水过程对区域生态质量具有持续影响。SHAP 蜂群图进一步显示，高、低变量取值对 HARSEI 的影响方向存在明显差异，说明驱动因子不仅改变变量重要性排序，也通过非线性阈值效应影响生态质量响应。
+
+逐年关键结果如下：
+2000: AET (0.049), SOIL (0.041), PRE (0.040), DEM (0.020); R2=0.937, RMSE=0.045
+2005: PRE (0.054), AET (0.038), SOIL (0.032), SWE (0.022); R2=0.928, RMSE=0.046
+2010: SOIL (0.052), AET (0.042), PRE (0.034), SWE (0.020); R2=0.932, RMSE=0.045
+2015: SOIL (0.046), AET (0.043), PRE (0.031), SWE (0.019); R2=0.924, RMSE=0.047
+2020: AET (0.054), PRE (0.037), SWE (0.025), SOIL (0.023); R2=0.927, RMSE=0.047
+2024: AET (0.058), PRE (0.041), SOIL (0.032), SWE (0.018); R2=0.934, RMSE=0.046
+
+【English manuscript-ready wording】
+
+To further quantify the nonlinear effects of exogenous driving factors on the spatial heterogeneity of HARSEI, annual random forest regression models were constructed using the revised HARSEI as the response variable, and SHAP values were used to interpret the marginal contribution of each factor to model output. To avoid circular interpretation, only exogenous environmental drivers were included, namely DEM, SLOPE, ASPECT, WRB, PRE, TEMMAX, TEMMIN, TEM, SOIL, AET, and SWE. HARSEI component variables and HAI/LUCC-related variables were excluded from the RF-SHAP analysis. For each year, 100,000 valid pixels were randomly sampled for model training and validation, of which 25% were used as an independent validation set. SHAP values were then calculated for 2,000 validation samples.
+
+The RF models showed strong explanatory performance across the six years, with high validation R² values, indicating that the exogenous environmental variables effectively captured the spatial heterogeneity of HARSEI. The SHAP results indicated that SOIL, AET, PRE, and SWE were generally the most influential variables, highlighting the persistent roles of soil background, water availability, and snow-water processes in regulating regional ecological quality. The SHAP beeswarm plots further showed distinct effects of high and low feature values on HARSEI, suggesting that the drivers affected ecological quality through nonlinear and threshold-dependent responses rather than only through monotonic linear effects.

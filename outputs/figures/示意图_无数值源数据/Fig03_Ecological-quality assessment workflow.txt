@@ -1,0 +1,1 @@
+Fig. 3 is an ecological-quality assessment workflow schematic. It has no independent numeric raw dataset. Source rasters and tables used by the workflow are provided in the map and Origin folders.

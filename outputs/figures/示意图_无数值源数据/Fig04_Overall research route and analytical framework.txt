@@ -1,0 +1,1 @@
+Fig. 4 is a research-route schematic. It has no independent numeric raw dataset. The analysis outputs shown in later figures are provided as GeoTIFF or Excel sources.

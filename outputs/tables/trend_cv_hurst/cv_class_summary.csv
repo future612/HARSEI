@@ -1,0 +1,6 @@
+code,class,pixels,percent
+1,Low fluctuation (<0.05),414131,82.21893097581265
+2,Relatively low fluctuation (0.05-0.10),87200,17.312132588699864
+3,Medium fluctuation (0.10-0.15),1946,0.3863464451560772
+4,High fluctuation (0.15-0.20),279,0.05539088293861539
+5,Very high fluctuation (>0.20),137,0.027199107392796802

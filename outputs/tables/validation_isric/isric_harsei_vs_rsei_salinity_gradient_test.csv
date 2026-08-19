@@ -1,0 +1,6 @@
+﻿year,class_count,HARSEI_median_slope_per_class,RSEI_median_slope_per_class,HARSEI_spearman_across_class_medians,RSEI_spearman_across_class_medians,HARSEI_monotonic_decrease_steps,RSEI_monotonic_decrease_steps,HARSEI_clearer_decline_than_RSEI
+2000,3,-0.07218432426452637,-0.1818375661969185,-0.5,-0.5,1,1,No
+2002,4,-0.0383035455431257,-0.08355586635214941,-0.8,-0.8,2,2,No
+2005,3,-0.09677243232727051,-0.2189747579395771,-0.5,-0.5,1,1,No
+2009,4,-0.0392103808266776,-0.08885908062968935,-0.4,-0.4,2,2,No
+2016,5,-0.043928596377372744,-0.09395593032240866,-0.9,-0.9,3,3,No

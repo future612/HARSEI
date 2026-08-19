@@ -1,0 +1,22 @@
+file_or_dataset,role,location_or_source,included_in_github,notes
+projects/jlu2024621038/assets/yjq,study-area boundary,GEE asset,no,User-provided ROI asset used as export and analysis boundary.
+YJQ_ecocomponents_YYYY.tif,annual ecological component stacks,GEE export from gee/gee_01_export_annual_inputs.js,no,Large GeoTIFF files; regenerate from GEE.
+YJQ_hai_inputs_YYYY.tif,annual HAI component stacks,GEE export from gee/gee_02_export_annual_hai_inputs.js,no,Large GeoTIFF files; regenerate from GEE.
+YJQ_pooled_pca_sample_2000_2024.csv,pooled PCA sample,GEE export from gee/gee_01_export_annual_inputs.js,no,Approximately 36 MB in local run; not copied to keep GitHub package lightweight.
+YJQ_water_snow_sensitivity_2000_2024.csv,water and snow sensitivity output,GEE export from gee/gee_03_water_snow_sensitivity.js,yes,Included under outputs/tables/sensitivity.
+YJQ_AWRSEI_YYYY.tif,annual AWRSEI raster,local Python output,no,Large GeoTIFF files; summary statistics are included.
+YJQ_HAI_YYYY.tif,annual HAI raster,local Python output,no,Large GeoTIFF files; summary and formula checks are included.
+YJQ_HARSEI_YYYY.tif,annual HARSEI raster,local Python output,no,Large GeoTIFF files; summary, trend and transition tables are included.
+annual_index_summary.csv,annual AWRSEI/HAI/HARSEI summary,local Python output,yes,Included under outputs/tables/annual_harsei.
+harsei_yearly_entropy_weights.csv,annual entropy weights,local Python output,yes,Included under outputs/tables/annual_harsei.
+trend_class_summary.csv,Theil-Sen/Mann-Kendall class summary,local Python output,yes,Included under outputs/tables/trend_cv_hurst.
+final_harsei_transition_5class_long.csv,HARSEI grade-transition matrix,local Python output,yes,Included under outputs/tables/grade_transition.
+Table_HARSEI_Global_Moran_summary.csv,Global Moran's I results,local Python output,yes,Included under outputs/tables/moran_lisa.
+GD_factor_revised_HARSEI_YYYY.csv,GeoDetector factor detection,local Python output,yes,Included under outputs/tables/geodetector.
+GD_interaction_long_revised_HARSEI_2000_2024.csv,GeoDetector interaction detection,local Python output,yes,Included under outputs/tables/geodetector.
+RF_SHAP_model_metrics.csv,RF model diagnostics,local Python output,yes,Included under outputs/tables/rf_shap.
+RF_SHAP_variable_importance.csv,RF and SHAP variable importance,local Python output,yes,Included under outputs/tables/rf_shap.
+ISRIC validation tables,external salinity validation,local Python output,yes,Included under outputs/tables/validation_isric.
+pressure-zone overlay tables,salinity/irrigation/mining overlay validation,local Python output,yes,Included under outputs/tables/validation_pressure_zones.
+Manas field-salinity tables,regional field-salinity evidence,local Python output,yes,Included under outputs/tables/validation_manas.
+

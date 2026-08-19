@@ -1,0 +1,5 @@
+code,class,pixels,percent
+1,Anti-persistent (H < 0.5),30947,6.144020266313012
+2,Weak persistence (0.5-0.6),60551,12.021409866724374
+3,Moderate persistence (0.6-0.7),98110,19.478134498593388
+4,Strong persistence (H > 0.7),314085,62.356435368369226
